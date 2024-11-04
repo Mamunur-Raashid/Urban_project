@@ -1,0 +1,1120 @@
+/* font-family: "Audiowide", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+
+height: 100px;
+
+background-color: #191c26;
+
+position: relative;
+}
+.container
+{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+}
+.logo
+{
+
+width: 32%;
+
+position: absolute;
+
+top: 50%;
+
+transform: translateY(-50%);
+}
+.logo img
+{
+}
+.Menu
+{
+
+width: 32%;
+
+position: absolute;
+
+top: 50%;
+
+left: 30%;
+}
+.Menu ul
+{
+    list-style: none;text-transform: uppercase;display: flex;justify-content: center;
+}
+.Menu ul li
+{
+    padding-left: 7%;
+}
+.Menu ul li a
+{
+
+text-decoration: none;
+
+color: #f7ead2;
+
+margin-right: 35px;
+}
+.seach{
+    
+position: absolute;
+    
+left: 96%;
+    
+top: 50%;
+}
+.seach a
+{
+    color: white;
+}
+
+
+
+.Banner
+{
+    width: 100%;
+    position: relative;
+}
+.banner_image
+{
+    width: 100%;
+    margin: auto;
+}
+.banner_image img
+{
+
+width: 100%;
+
+height: 589px;
+}
+.banner_content
+{
+
+position: absolute;
+
+width: 40%;
+
+top: 22%;
+
+left: 7%;
+}
+.banner_content h2
+{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 68.65pt;
+    word-spacing: 8px;
+    color: #be4d70;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 500;
+}
+.banner_content p
+{
+    font-size: 25px;
+    word-spacing: 0px;
+    margin-left: 6px;
+    margin-top: 0px;
+    color: #2d362c;
+    font-family: "Montserrat", sans-serif;
+}
+.banner_content a
+{
+    display: block;
+    margin-top: 40px;
+    margin-left: 6px;
+    text-decoration: none;
+    background-color: #be4d70;
+    width: 25%;
+    text-align: center;
+    padding: 10px 27px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;text-transform: uppercase;font-weight: 400;
+}
+.banner_content h3
+{
+    
+margin-left: 6px;
+    
+margin-top: 25px;
+    
+color: #191c26;
+    
+font-size: 29px;
+    
+font-family: 'Montserrat';
+    
+font-weight: bold;
+}
+.banner_pic
+{
+    
+position: absolute;
+    
+top: 15%;
+    
+right: 8%;
+}
+
+.music_tour
+{
+    height: 900px;
+    width: 100%;
+    background-color: #191c26;
+    color: white;
+    position: relative;
+    margin-top: -4px;
+}
+.music_tour_content
+{
+
+position: absolute;
+
+top: 10%;
+
+right: 50%;
+
+transform: translate(50%, 10%);
+}
+.music_tour_content h2
+{
+
+text-align: center;
+
+text-transform: uppercase;
+
+margin-bottom: 6%;
+
+font-size: 77px;
+
+font-family: "Audiowide", sans-serif;
+
+font-weight: 300;
+}
+.music_tour_content p
+{text-align: -webkit-center;text-transform: uppercase;font-size: 21px;font-family: "Montserrat", sans-serif;}
+
+.music_item_all
+{
+    height: 506px;
+    display: flex;
+    position: absolute;
+    top: 41%;
+    left: 11%;
+    margin-top: 0%;
+}
+.music_item1
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.music_item1 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.music_item1 p
+{
+
+position: absolute;
+
+color: #d3557c;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.music_item1 h5
+{
+    
+position: absolute;
+    
+color: #d3557c;
+    
+top: 19%;
+font-family: "Montserrat", sans-serif;
+left: 68%;
+    
+font-size: 31px;
+    
+rotate: 90deg;
+}
+.music_item2
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.music_item2 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.music_item2 p
+{
+
+position: absolute;
+
+color: #191c26;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.music_item2 h5
+{
+    
+position: absolute;
+    
+color: #191c26;
+    
+top: 21%;
+    
+font-family: "Montserrat", sans-serif;
+    
+left: 61%;
+    
+font-size: 31px;
+    
+rotate: 90deg;
+}
+.music_item3
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.music_item3 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.music_item3 p
+{
+
+position: absolute;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.music_item3 h5
+{
+    
+position: absolute;
+    
+top: 10%;
+    
+font-family: "Montserrat", sans-serif;
+    
+left: 77%;
+    
+font-size: 31px;
+    
+rotate: 90deg;
+}
+
+.concert_A
+{
+    width: 100%;
+    position: relative;
+}
+.concert_A_backgroundpic
+{}
+.concert_A_backgroundpic img
+{width: 100%;height: 700px;}
+.concert_A_content
+{position: absolute;left: 60%;top: 32%;color: white;font-weight: 200;}
+.concert_A_content h2
+{
+
+font-family: "Audiowide", sans-serif;
+
+font-size: 52px;
+
+word-spacing: 15px;
+
+font-weight: 100;
+
+margin-bottom: 30px;
+}
+.concert_A_content p
+{font-family: "Montserrat", sans-serif;font-size: 21px;word-spacing: 2px;font-weight: 300;}
+.concert_A_pic
+{
+
+height: 421px;
+
+position: absolute;
+
+top: 20%;
+
+left: 25%;
+}
+.concert_A_pic img
+{
+    
+max-width: 100%;
+    
+max-height: 100%;
+}
+
+
+
+.concert_B
+{
+    width: 100%;
+    margin-top: -6px;
+    position: relative;
+}
+.concert_B_backgroundpic
+{
+
+}
+.concert_B_backgroundpic img
+{width: 100%;height: 700px;}
+.concert_B_content
+{position: absolute;right: 47%;top: 32%;color: black;font-weight: 200;}
+.concert_B_content h2
+{
+
+font-family: "Audiowide", sans-serif;
+
+font-size: 52px;
+
+word-spacing: 15px;
+
+font-weight: 100;
+
+margin-bottom: 30px;
+}
+.concert_B_content p
+{font-family: "Montserrat", sans-serif;font-size: 21px;word-spacing: 2px;font-weight: 300;}
+.concert_B_pic
+{
+
+height: 421px;
+
+position: absolute;
+
+top: 20%;
+
+right: 13%;
+}
+.concert_B_pic img
+{
+    
+max-width: 100%;
+    
+max-height: 100%;
+}
+
+
+.concert_c
+{
+    width: 100%;
+    margin-top: -6px;
+    position: relative;
+}
+.concert_c_backgroundpic
+{}
+.concert_c_backgroundpic img
+{width: 100%;height: 700px;}
+.concert_c_content
+{position: absolute;left: 60%;top: 32%;color: #d3557c;font-weight: 200;}
+.concert_c_content h2
+{
+
+font-family: "Audiowide", sans-serif;
+
+font-size: 52px;
+
+word-spacing: 15px;
+
+font-weight: 100;
+
+margin-bottom: 30px;
+}
+.concert_c_content p
+{font-family: "Montserrat", sans-serif;font-size: 21px;word-spacing: 2px;font-weight: 300;}
+.concert_c_pic
+{
+
+height: 421px;
+
+position: absolute;
+
+top: 20%;
+
+left: 25%;
+}
+.concert_c_pic img
+{
+    
+max-width: 100%;
+    
+max-height: 100%;
+}
+
+
+.statistics
+{
+
+width: 100%;
+
+height: 700px;
+
+background-color: #191c26;
+
+color: white;
+
+position: relative;
+}
+.statistics_content
+{
+
+position: absolute;
+
+top: 25%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+}
+.statistics_content h2
+{
+
+text-align: center;
+
+text-transform: uppercase;
+
+margin-bottom: 6%;
+
+font-size: 77px;
+
+font-family: "Audiowide", sans-serif;
+
+font-weight: 300;
+}
+.statistics_content p
+{
+
+text-align: -webkit-center;
+
+text-transform: uppercase;
+
+font-size: 21px;
+
+font-family: "Montserrat", sans-serif;
+}
+.statistics_item_all
+{height: 300px;display: flex;position: absolute;top: 50%;left: 6%;width: 90%;margin-top: 62px;justify-content: center;}
+.statistics_item1
+{width: 17%;margin-right: 40px;}
+.statistics_item1 h3
+{text-transform: uppercase;margin-bottom: 10px;font-size: 30.65pt;word-spacing: 8px;color: beige;font-family: "Audiowide", sans-serif;font-weight: 100;}
+.statistics_item1 p
+{
+    
+font-size: 25px;
+    
+word-spacing: 0px;
+    
+margin-left: 41px;
+    
+margin-top: 0px;
+    
+color: whit\;
+    
+font-family: "Montserrat", sans-serif;
+}
+
+.statistics_item2
+{width: 17%;margin-right: 40px;}
+.statistics_item2 h3
+{text-transform: uppercase;margin-bottom: 10px;font-size: 30.65pt;word-spacing: 8px;color: beige;font-family: "Audiowide", sans-serif;font-weight: 100;}
+.statistics_item2 p
+{
+    
+font-size: 25px;
+    
+word-spacing: 0px;
+    
+margin-left: -3px;
+    
+margin-top: 0px;
+    
+color: whit\;
+    
+font-family: "Montserrat", sans-serif;
+}
+.statistics_item3
+{width: 17%;}
+.statistics_item3 h3
+{text-transform: uppercase;margin-bottom: 10px;font-size: 30.65pt;word-spacing: 8px;color: beige;font-family: "Audiowide", sans-serif;font-weight: 100;}
+.statistics_item3 p
+{
+    
+font-size: 25px;
+    
+word-spacing: 0px;
+    
+margin-left: 2px;
+    
+margin-top: 0px;
+    
+color: whit\;
+    
+font-family: "Montserrat", sans-serif;
+}
+
+
+.full_album
+{
+    height: 900px;
+    width: 100%;
+    background-color: #f7ead2;
+    color: white;
+    position: relative;
+    margin-top: -4px;
+}
+.full_album_content
+{
+
+position: absolute;
+
+top: 6%;
+
+right: 50%;
+
+transform: translate(50%, 10%);
+}
+.full_album_content h2
+{
+
+text-align: center;
+
+text-transform: uppercase;
+
+margin-bottom: 6%;
+
+font-size: 77px;
+
+font-family: "Audiowide", sans-serif;
+
+font-weight: 300;
+
+color: black;
+}
+.full_album_content p
+{text-align: -webkit-center;text-transform: uppercase;font-size: 21px;font-family: "Montserrat", sans-serif;}
+
+.full_album_item_all
+{
+    height: 506px;
+    display: flex;
+    position: absolute;
+    top: 26%;
+    left: 11%;
+    margin-top: 0%;
+    text-transform: uppercase;
+}
+.full_album_item1
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.full_album_item1 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.full_album_item1 p
+{
+
+position: absolute;
+
+color: #d3557c;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.full_album_item1 h5
+{
+    
+position: absolute;
+    
+color: black;
+    
+top: 6%;
+    
+font-family: "Montserrat", sans-serif;
+    
+left: 8%;
+    
+font-size: 35px;
+}
+.full_album_item2
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.full_album_item2 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.full_album_item2 p
+{
+
+position: absolute;
+
+color: #191c26;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.full_album_item2 h5
+{
+    
+position: absolute;
+    
+color: #191c26;
+    
+top: 21%;
+    
+font-family: "Montserrat", sans-serif;
+    
+left: 63%;
+    
+font-size: 31px;
+    
+rotate: 90deg;
+}
+.full_album_item3
+{
+
+width: 33%;
+
+margin-left: 4%;
+
+position: relative;
+}
+
+.full_album_item3 img
+{
+
+max-width: 100%;
+
+max-height: 100%;
+}
+.full_album_item3 p
+{
+
+position: absolute;
+
+font-family: "Montserrat", sans-serif;
+
+top: 5%;
+
+left: 12%;
+
+font-size: 18px;
+}
+.full_album_item3 h5
+{
+    
+position: absolute;
+    
+top: 6%;
+    
+font-family: "Montserrat", sans-serif;
+    
+left: 23%;
+    
+font-size: 46px;
+    
+color: black;
+}
+.full_album-pera
+{
+}
+.full_album-pera p
+{
+    
+position: absolute;
+    
+top: 89%;
+    
+right: 50%;
+    
+transform: translate(50%, 98%);
+    
+color: black;
+    
+text-align: -webkit-center;
+    
+text-transform: uppercase;
+    
+font-size: 36px;
+    
+width: 100%;
+    
+font-family: "Montserrat", sans-serif;
+    
+font-weight: 400;
+}
+
+
+
+.subcribe
+{
+
+width: 100%;
+
+margin: auto;
+
+background-color: #d3557c;
+
+color: white;
+
+height: 600px;
+
+position: relative;
+}
+.subcribe_content
+{
+
+position: absolute;
+
+top: 55%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+}
+.subcribe_content h2
+{
+
+text-transform: uppercase;
+
+margin-bottom: 10px;
+
+font-size: 59.65pt;
+
+word-spacing: 8px;
+
+font-family: "Audiowide", sans-serif;
+
+font-weight: 100;
+
+text-align: center;
+}
+.subcribe_content p
+{
+    
+font-size: 25px;
+    
+word-spacing: 0px;
+    
+margin-left: 6px;
+    
+margin-top: 0px;
+    
+font-family: "Montserrat", sans-serif;
+    
+text-align: center;
+}
+.subcribe_content input
+{width: 30%;margin: 22px 58px;padding-top: 11px;border: none;background: no-repeat;display: block;background-color: aliceblue;padding-bottom: 10px;padding-right: 210px;padding-left: 35px;border-radius: 14px;}
+.subcribe_content a
+{
+    
+display: block;
+    
+position: absolute;
+    
+top: 76%;
+    
+left: 69%;
+    
+background-color: #191c26;
+    
+color: white;
+    
+text-decoration: none;
+    
+padding: 9px 17px;
+    
+text-transform: capitalize;
+    
+font-size: 18px;
+    
+border-radius: 52px;
+}
+
+
+footer
+{
+
+height: 400px;
+
+background-color: #191c26;
+
+color: white;
+
+display: flex;
+}
+.left
+{
+
+width: 40%;
+
+margin-left: 5%;
+
+padding-top: 5%;
+}
+.left h2
+{
+
+text-transform: uppercase;
+
+margin-bottom: 9%;
+
+font-size: 27px;
+
+font-family: "Audiowide", sans-serif;
+
+font-weight: 100;
+}
+.left p
+{
+
+margin-bottom: 4%;
+
+font-size: 24px;
+
+margin-bottom: 7%;
+}
+.left a
+{
+    
+color: white;
+}
+
+.right
+{
+
+width: 75%;
+
+display: flex;
+}
+.about
+{
+
+width: 33%;
+
+padding-top: 9%;
+
+font-size: 29px;
+
+padding-left: 15%;
+}
+.about h5
+{margin-bottom: 7%;}
+.about h5 a
+{
+
+text-decoration: none;
+
+color: #f7ead2;
+
+text-transform: uppercase;
+
+font-size: 27px;
+
+font-family: "Audiowide", sans-serif;
+}
+
+.about ul
+{
+
+list-style: none;
+}
+.about ul li
+{
+
+}
+.about ul li a
+{
+    
+text-decoration: none;
+    
+color: #f7ead2;
+    
+text-transform: uppercase;
+    
+font-size: 20px;
+    
+font-family: "Montserrat", sans-serif;
+}
+.services
+{
+
+width: 33%;
+
+padding-top: 9%;
+
+font-size: 29px;
+}
+.services h5
+{margin-bottom: 7%;}
+.services h5 a
+{
+
+text-decoration: none;
+
+color: #f7ead2;
+
+text-transform: uppercase;
+
+font-size: 27px;
+
+font-family: "Audiowide", sans-serif;
+}
+
+.services ul
+{
+
+list-style: none;
+}
+.services ul li
+{
+
+}
+.services ul li a
+{
+    
+text-decoration: none;
+    
+color: #f7ead2;
+    
+text-transform: uppercase;
+    
+font-size: 20px;
+    
+font-family: "Montserrat", sans-serif;
+}
+.others
+{
+
+width: 33%;
+
+font-size: 29px;
+
+padding-top: 9%;
+}
+.others h5
+{margin-bottom: 7%;}
+.others h5 a
+{
+
+text-decoration: none;
+
+color: #f7ead2;
+
+text-transform: uppercase;
+
+font-size: 27px;
+
+font-family: "Audiowide", sans-serif;
+}
+
+.others ul
+{
+
+list-style: none;
+}
+.others ul li
+{
+
+}
+.others ul li a
+{
+    
+text-decoration: none;
+    
+color: #f7ead2;
+    
+text-transform: uppercase;
+    
+font-size: 20px;
+    
+font-family: "Montserrat", sans-serif;
+}
+
